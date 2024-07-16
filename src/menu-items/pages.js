@@ -15,7 +15,7 @@ const pages = {
   type: 'group',
   children: [
     {
-      id: 'default',
+      id: 'marketPlace',
       title: 'MarketPlace',
       type: 'item',
       url: '/pages/marketPlace',
