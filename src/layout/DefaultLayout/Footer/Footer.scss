@@ -1,0 +1,71 @@
+.footer {
+    background-color: #010911 !important;
+  
+    .btn {
+      &.btn-social {
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light);
+        border: 1px solid rgba(256, 256, 256, .1);
+        border-radius: 40px;
+        transition: .3s;
+  
+        &:hover {
+          color: #4ac4f3; // Change social icons color on hover to green
+        }
+      }
+  
+      &.btn-link {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+        text-align: left;
+        color: white; // Set link text color to white
+        font-weight: normal;
+        transition: .3s;
+  
+        &::before {
+          position: relative;
+          content: "\f105";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 10px;
+        }
+  
+        &:hover {
+          letter-spacing: 1px;
+          box-shadow: none;
+          color: white !important;
+        }
+      }
+    }
+  
+    .copyright {
+      padding: 25px 0;
+      font-size: 14px;
+      border-top: 1px solid rgba(256, 256, 256, .1);
+  
+      a {
+        color: var(--light);
+      }
+    }
+  
+    .footer-menu {
+      a {
+        margin-right: 15px;
+        padding-right: 15px;
+        border-right: 1px solid rgba(255, 255, 255, .1);
+  
+        &:last-child {
+          margin-right: 0;
+          padding-right: 0;
+          border-right: none;
+        }
+      }
+    }
+  }
+  

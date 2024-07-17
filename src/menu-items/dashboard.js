@@ -1,5 +1,5 @@
 // assets
-import { IconDashboard, IconChartHistogram } from '@tabler/icons-react';
+import { IconChartHistogram, IconDashboard } from '@tabler/icons-react';
 
 // constant
 const icons = { IconDashboard, IconChartHistogram };

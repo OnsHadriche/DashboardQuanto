@@ -1,25 +1,23 @@
 import { useEffect, useRef, useState } from 'react';
 
 // material-ui
-import { useTheme } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import IconButton from '@mui/material/IconButton';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
+import IconButton from '@mui/material/IconButton';
 import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
+import { useTheme } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 
 // project import
 
+import Transitions from 'components/@extended/Transitions';
 import SearchSection from '../../../../components/SearchSection';
 import ProfileSection from '../ProfileSection';
-import Transitions from 'components/@extended/Transitions';
 
 // assets
 import { MoreOutlined } from '@ant-design/icons';
-
-// ==============================|| HEADER CONTENT - MOBILE ||============================== //
 
 const MobileSection = () => {
   const theme = useTheme();

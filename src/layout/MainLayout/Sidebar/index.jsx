@@ -8,16 +8,15 @@ import Drawer from '@mui/material/Drawer';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 // third-party
-import PerfectScrollbar from 'react-perfect-scrollbar';
 import { BrowserView, MobileView } from 'react-device-detect';
+import PerfectScrollbar from 'react-perfect-scrollbar';
 
 // project imports
-import MenuList from './MenuList';
 import LogoSection from '../LogoSection';
+import MenuList from './MenuList';
 
 import { drawerWidth } from 'store/constant';
 
-// ==============================|| SIDEBAR DRAWER ||============================== //
 
 const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
   const theme = useTheme();

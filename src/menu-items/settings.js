@@ -1,5 +1,5 @@
 // assets
-import { IconSettings,IconFileDescription } from '@tabler/icons-react';
+import { IconFileDescription, IconSettings } from '@tabler/icons-react';
 
 // constant
 const icons = { IconSettings,IconFileDescription };
@@ -12,16 +12,16 @@ const settings = {
   type: 'group',
   children: [
     {
-      id: 'brokingDetails',
-      title: 'Broking Details',
+      id: 'brokerDetails',
+      title: 'Broker',
       type: 'item',
-      url: '/settings/brokingDetails',
+      url: '/settings/brokerDetails',
       icon: icons.IconFileDescription,
       breadcrumbs: false
     },
     {
       id: 'Settings',
-      title: 'Settings',
+      title: ' Profile',
       type: 'item',
       url: '/settings/setting',
       icon: icons.IconSettings,

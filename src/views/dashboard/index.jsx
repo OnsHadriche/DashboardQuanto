@@ -6,10 +6,10 @@ import Grid from '@mui/material/Grid';
 // project imports
 import EarningCard from './EarningCard';
 import PopularCard from './PopularCard';
-import TotalOrderLineChartCard from './TotalOrderLineChartCard';
+import TotalGrowthBarChart from './TotalGrowthBarChart';
 import TotalIncomeDarkCard from './TotalIncomeDarkCard';
 import TotalIncomeLightCard from './TotalIncomeLightCard';
-import TotalGrowthBarChart from './TotalGrowthBarChart';
+import TotalOrderLineChartCard from './TotalOrderLineChartCard';
 
 import { gridSpacing } from 'store/constant';
 
@@ -24,7 +24,7 @@ const Dashboard = () => {
   useEffect(() => {
     setLoading(false);
   }, []);
-
+ 
   return (
     <Grid container spacing={gridSpacing}>
       <Grid item xs={12}>
