@@ -1,22 +1,25 @@
 import CardCompanies from 'components/CardCompanies';
-
+import dataProvider from '../../../assets/images/home/dataProvider.jpeg'
+import alpaca from '../../../assets/images/home/alpaca.png'
+import yahoofinance from '../../../assets/images/home/yahoofinance.png'
+import vbt from '../../../assets/images/home/vbt.png'
 function Company() {
     const companies = [
         {
             title: 'Alpha vantage',
-            image: '../../../assets/images/home/dataProvider.png'
+            image: dataProvider
         },
         {
             title: 'Alpaca',
-            image: '../../../assets/images/home/alpaca.png'
+            image: alpaca
         },
         {
             title: 'YahooFinance',
-            image: '../../../assets/images/home/yahoofinance.png'
+            image: yahoofinance
         },
         {
             title: 'VectorBt PRO',
-            image: '../../../assets/images/home/vbt.png'
+            image: vbt
         }
     ];
     return (

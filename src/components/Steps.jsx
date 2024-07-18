@@ -1,6 +1,7 @@
 import StepLeft from './StepLeft';
 import StepRight from './StepRight';
-
+import steps2 from '../assets/images/home/step2.png';
+import step1 from '../assets/images/home/step1.png'
 function Steps() {
     const steps = [
         {
@@ -8,15 +9,15 @@ function Steps() {
             title: 'Create account',
             description:
                 'The initial step is to sign up. By securely entering your information, you can start enjoying the benefits of our platform.',
-            image: './src/assets/images/step1.png',
-            propertyFlex: './src/assets/images/step1.png'
+            image: step1,
+            propertyFlex: ''
         },
         {
             id: '2',
             title: 'Input Parameters Form for Financial Data Analysis',
             description:
                 "The second step is to enter the parameters required for analyzing financial data. The form includes fields for specifying the asset symbol (e.g., 'AAPL' for Apple Inc.), the start and end dates, and the timeframe for analysis indicating a daily timeframe. The interface is designed with a dark theme for a modern and visually appealing look.",
-            image: './src/assets/images/step2.png',
+            image: steps2,
             propertyFlex: `flex-column-reverse flex-lg-row`
         },
         {
@@ -24,7 +25,7 @@ function Steps() {
             title: 'Input Parameters Form for Financial Data Analysis',
             description:
                 "The second step is to enter the parameters required for analyzing financial data. The form includes fields for specifying the asset symbol (e.g., 'AAPL' for Apple Inc.), the start and end dates, and the timeframe for analysis indicating a daily timeframe. The interface is designed with a dark theme for a modern and visually appealing look.",
-            image: './src/assets/images/step2.png',
+            image: steps2,
             propertyFlex: ` `
         },
         {
@@ -32,7 +33,7 @@ function Steps() {
             title: 'Input Parameters Form for Financial Data Analysis',
             description:
                 "The second step is to enter the parameters required for analyzing financial data. The form includes fields for specifying the asset symbol (e.g., 'AAPL' for Apple Inc.), the start and end dates, and the timeframe for analysis indicating a daily timeframe. The interface is designed with a dark theme for a modern and visually appealing look.",
-            image: './src/assets/images/step2.png',
+            image: steps2,
             propertyFlex: `flex-column-reverse flex-lg-row`
         }
     ];
