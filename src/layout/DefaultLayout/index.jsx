@@ -4,7 +4,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Footer from './Footer';
 import { useEffect, useState } from 'react';
 import Navbar from './NavBar';
-import '../../assets/css/index.css'
+import '../../assets/css/index.css';
 
 const MainContent = () => {
     const [loading, setLoading] = useState(true);
@@ -25,7 +25,7 @@ const MainContent = () => {
                 <Loader />
             ) : (
                 <div>
-                    <Navbar/>
+                    <Navbar />
                     <Outlet />
                     <Cube />
                     <Footer />

@@ -1,0 +1,59 @@
+.how-to-use {
+    width: 100%;
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+  .step {
+    padding: 50px 15px; /* Adjust padding as needed */
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .description-black {
+    color: black;
+  }
+  
+  .description-white {
+    color: white;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .step.left {
+    animation: slideInLeft 0.5s ease-in-out forwards;
+  }
+  
+  .step.right {
+    animation: slideInRight 0.5s ease-in-out forwards;
+  }
+  
