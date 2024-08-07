@@ -12,6 +12,7 @@ import ProfileSection from './ProfileSection';
 
 // assets
 import { IconMenu2 } from '@tabler/icons-react';
+import { TogglerButton } from 'components/TogglerButton';
 
 // ==============================|| MAIN NAVBAR / HEADER ||============================== //
 
@@ -54,11 +55,15 @@ const Header = ({ handleLeftDrawerToggle }) => {
           </Avatar>
         </ButtonBase>
       </Box>
-      {/* <Box sx={{ flexGrow: 1 }} /> */}
-      <Box sx={{ flexGrow: 1 }} />
+      <Box sx={{ flexGrow: 1 }} >
+        </Box>
+      <Box sx={{ flexGrow: 1 }}>
+      </Box>
+    
+        <TogglerButton />
+        <ProfileSection />
 
       {/*profile */}
-      <ProfileSection />
     </>
   );
 };
