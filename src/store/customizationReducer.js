@@ -40,6 +40,7 @@ function customizationReducer(state = initialState, action) {
                 borderRadius: action.borderRadius
             };
         case actionTypes.SET_TOGGELE_DARK:
+            localStorage.setItem('isDarkMode', JSON.stringify(!state.isDarkMode));
             return {
                 ...state,
                 isDarkMode: !state.isDarkMode

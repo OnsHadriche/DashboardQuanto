@@ -13,18 +13,17 @@ export const TogglerButton = () => {
     };
     return (
         <Box
-        sx={{
-            display: 'flex',
-            alignItems: 'end',
-            justifyContent: 'center',
-            bgcolor: 'background.default',
-            color: 'text.primary',
-            borderRadius: 1,
-            
-          }}
+            sx={{
+                display: 'flex',
+                alignItems: 'end',
+                justifyContent: 'center',
+                bgcolor: 'background.default',
+                color: 'text.primary',
+                borderRadius: 1
+            }}
         >
-            <IconButton sx={{ ml:0 }} onClick={handleDarkModeToggle} color="inherit">
-                {isDarkMode ? <ToggleOffIcon fontSize='large' /> : <ToggleOnIcon fontSize='large' />}
+            <IconButton sx={{ ml: 0 }} onClick={handleDarkModeToggle} color="inherit">
+                {isDarkMode ? <ToggleOffIcon fontSize="large" /> : <ToggleOnIcon fontSize="large" />}
             </IconButton>
         </Box>
     );
